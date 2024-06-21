@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: kafka-zookeeper
+    env: docker
+    repo: https://github.com/amr2006223/kafka-docker
+    branch: main
+    buildCommand: ""
+    startCommand: docker-compose up
+    autoDeploy: true
